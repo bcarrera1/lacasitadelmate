@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 * {
-  margin: 0;
+  margin: inherit;
   padding: 0;
   box-sizing: border-box;
 }
@@ -180,53 +180,32 @@ body {
 
 
 .Piedepagina {
-  margin: 0px;
+  margin: auto;
   padding: 0px;
-  box-sizing: border-box;
-  font-family: sans-serif;
+
+ 
   background: #202020;
   color: white;
 
  }
 
- .container-footer-all {
- 
-  max-width: 1200px;
-  
- }
-
  .container-foo {
   display: flex;
+  
 
  }
- .colum1{
-  max-width: 400px;
+ 
+ .colum1 {
+  margin-top: initial;
   
  }
-
  .colum1 h2 {
-  font-size: 22px;
- }
- .colum1 p {
-  font-size: 14px;
-  color: #C7C7C7;
-  margin-top: 20px;
- }
-
- .colum2 {
-  max-width: 200px;
-  
-  
-
-
- }
- .colum2 h2 {
   font-size: 22px;
  }
  
 .row{
-  margin-top: 20px;
-  display: flex;
+  margin-top: 10px;
+  
 }
 .row img{
   width: 36px;
@@ -239,12 +218,12 @@ body {
   color: #C7C7C7;
 }
 
-.colum3{
-  max-width: 400px;
-  margin-left: 530px;
+.colum2{
+  margin-left: auto;
+  
 }
 
-.colum3 h2{
+.colum2 h2{
   font-size: 22px;
 }
 
@@ -261,8 +240,9 @@ body {
 .row2 label{
   margin-top: 10px;
   margin-left: 20px;
-  max-width: 140px;
+  max-width: 100px;
 }
+
 
 .container-footer{
   width: 100%;  
@@ -271,7 +251,7 @@ body {
 
 .footer{
   max-width: 1200px;
-  margin: auto;
+
   display: flex;
   justify-content: space-between;  
   padding: 20px;
