@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+
+.navbar {
+  background-color: wheat;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+
+
+}
+.navbarr {
+  background-color: wheat;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+
+
+}
+
+.navbar .logo {
+  height: 100px;
+  width: 100px;
+  grid-column: 2 / 3;
+}
+
+.navbarr .logo {
+  height: 100px;
+  width: 100px;
+  grid-column: 2 / 3;
+  
+}
+.navbar .menu {
+  
+  grid-column: 4 / 7;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.navbarr .menu {
+  grid-column: 4 / 7;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .menu li {
+  list-style: none;
+}
+
+.navbarr .menu li {
+  list-style: none;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.navbarr .menu a {
+  text-decoration: none;
+  color: black;
+ 
+}
+.navbar .menu a:hover {
+  color: white;
+  
+
+}
+.navbarr .menu a:hover {
+  color: white;
+  
+
+}
+.navbar .menu-bar {
+  display: none;
+}
+.navbarr .menu-bar {
+  display: none;
+}
+
+
+.navbar .shoping {
+  grid-column: 8 / 9;
+}
+
+
+
+
+.hero {
+  height: 83vh;
+  background-image: linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .10)) , url(../assets/img/campoverde.webp) ;
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+}
+
+.heroo {
+  height: 83vh;
+  background-image: linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .10)) , url(../assets/img/campoverde.webp) ;
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+}
+
+
+.hero .info-content {
+  grid-column: 7 / 10 ;
+  grid-row: 3 / 7;
+  color: rgba(255, 255, 255, 0.843)
+}
+
+.heroo .info-contentt {
+  grid-column: 2 / 4 ;
+  grid-row: 2 / 6;
+  color: rgba(255, 255, 255, 0.843)
+}
+
+.hero h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em ;
+  font-weight: 400;
+}
+
+
+
+.hero h1 {
+  font-size: 5em;
+  color: wheat ;
+}
+.heroo h1 {
+  
+  font-size: 3em ;
+  font-weight: 800;
+  color: wheat;
+}
+
+
+.hero p {
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heroo p {
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero .btn {
+  font-size: 1em;
+  background: none;
+  color: rgba(255, 255, 255, 0.843);
+  padding: 10px 20px;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  margin-top: 10px;
+
+}
+.hero .btn:hover {
+  background-color: wheat;
+  color: black;
+}
+
+
+.Piedepagina {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #202020;
+  color: white;
+
+ }
+
+ .container-footer-all {
+ 
+  max-width: 1200px;
+  
+ }
+
+ .container-foo {
+  display: flex;
+
+ }
+ .colum1{
+  max-width: 400px;
+  
+ }
+
+ .colum1 h2 {
+  font-size: 22px;
+ }
+ .colum1 p {
+  font-size: 14px;
+  color: #C7C7C7;
+  margin-top: 20px;
+ }
+
+ .colum2 {
+  max-width: 200px;
+  
+  
+
+
+ }
+ .colum2 h2 {
+  font-size: 22px;
+ }
+ 
+.row{
+  margin-top: 20px;
+  display: flex;
+}
+.row img{
+  width: 36px;
+  height: 36px;
+}
+
+.row label{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #C7C7C7;
+}
+
+.colum3{
+  max-width: 400px;
+  margin-left: 530px;
+}
+
+.colum3 h2{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 10px;
+  display: flex;
+}
+
+.row2 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label{
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer{
+  width: 100%;  
+  background: #101010;
+}
+
+.footer{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px;
+}
+
+.copyright{
+  color: #C7C7C7;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a{
+  text-decoration: none;
+  color: #C7C7C7;
+}
+
+
+
+
+
+.footerr {
+  display: grid;
+ 
+  align-items: center;
+  background-color:black;
+  color:rgba(255, 255, 255, 0.843);
+  grid-template-areas:
+  contactoo;
+
+}
+
+
+
+.footerr .contactoo{
+  grid-template-areas: contactoo;
+  display: flex;
+  background-color: black ;
+  padding: 30px;
+  margin: auto;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+  .navbar .menu {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+
+  }
+  
+  .navbar .logo {
+   height: 120px;
+   width: 120px;
+  
+  }
+  
+  .navbarr .logo {
+    height: 120px;
+    width: 120px;
+   
+   }
+
+  .hero h1 {
+    font-size: 30px;
+   
+  }
+
+  .hero p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .Piedepagina {
+    font-size: 10px;
+  }
+
+  .navbarr .menu {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+
+  }
+
+  .heroo h1 {
+    font-size: 30px;
+   
+  }
+
+  .heroo p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+   
+
+}
+
+
+ 
+
+
