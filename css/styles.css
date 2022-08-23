@@ -13,6 +13,7 @@ body {
 
 
 .navbar {
+  padding: 0%;
   background-color: wheat;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -97,8 +98,10 @@ body {
 }
 
 
-
-
+.carousel .slide{
+ width: 1425px; 
+ height:400px;
+}
 .hero {
   height: 83vh;
   background-image: linear-gradient(rgba(16, 16, 16, .7), rgba(16, 16, 16, .10)) , url(../assets/img/campoverde.webp) ;
@@ -120,6 +123,7 @@ body {
   grid-template-rows: repeat(8, 1fr);
 
 }
+
 
 
 .hero .info-content {
@@ -208,7 +212,7 @@ body {
   
 }
 .row img{
-  width: 36px;
+  width: 60px;
   height: 36px;
 }
 
@@ -304,38 +308,50 @@ body {
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
+
+
+ 
+
   .navbar .menu {
     flex-direction: column;
-    height: 120px;
+    height: 180px;
     justify-content: space-evenly;
 
   }
   
   .navbar .logo {
-   height: 120px;
-   width: 120px;
+   height: 200px;
+   width: 200px;
   
   }
   
   .navbarr .logo {
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
    
    }
-
+   .carousel .slide{
+    width: 403px; 
+    height:400px;
+   }
   .hero h1 {
     font-size: 30px;
    
   }
 
   .hero p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
   }
   .Piedepagina {
     font-size: 10px;
   }
+
+  .colum2 {
+    margin: initial;
+  }
+  
 
   .navbarr .menu {
     flex-direction: column;
@@ -353,11 +369,8 @@ body {
     font-size: 18px;
     font-weight: 400;
   }
-   
-
-}
-
-
  
 
+
+}
 
