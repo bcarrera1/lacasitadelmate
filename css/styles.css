@@ -22,6 +22,7 @@ body {
 
 }
 .navbarr {
+  padding: 0%;
   background-color: wheat;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -73,6 +74,7 @@ body {
 .navbarr .menu a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
  
 }
 .navbar .menu a:hover {
@@ -223,6 +225,7 @@ body {
 }
 
 .colum2{
+  margin-top: initial;
   margin-left: auto;
   
 }
