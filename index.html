@@ -2,128 +2,126 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
   <title>La casita del mate</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/css/main.css">
   <script src="js/scrollreveal.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="shortcut icon" href="assets/img/la-casita-del-mate.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <img src="assets/img/la-casita-del-mate.png" class="logo" alt="Bauti carrera logo">
-            <ul class="menu" id="menu">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="pages/contacto.html">Contacto</a></li>
-              <li><a href="pages/servicios.html">Servicios</a></li>
-              <li><a href="pages/nosotros.html">Nosotros</a></li>
-             </ul>
-             <div class="menu-bar" id="menu-bar">
-               <i class="fas fa-bars"></i>
-             </div>
-             <div class="shoping">
-               <i class="fas fa-shopping-cart"></i>
-        </nav>
-    </header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+  <header class="header-container">
+    <nav class="nav-container">
+      <div class="logo-container">
+        <img src="./assets/img/la-casita-del-mate.png" alt="Bauti carrera logo">
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="assets/img/mate1.jpeg" class="d-block w-100" alt="..." style="width: 300px; height:400px">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/mate2.webp" class="d-block w-100" alt="..." style="width: 300px; height:400px">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/mate3.jpeg" class="d-block w-100" alt="..." style="width: 300px; height:400px">
-        </div>
+      <i class="icon-menu"></i>
+      <div class="mobile-menu">
+        <div class="mobile-menu__container">
+          <ul class="mobile-links-container">
+            <li class="mobile-links-container__link">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="mobile-links-container__link">
+              <a href="pages/servicios.html">Servicios</a>
+            </li>
+            <li class="mobile-links-container__link">
+              <a href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="mobile-links-container__link">
+              <a href="pages/contacto.html">
+                <div class="contact-style">Contacto</div>
+              </a>
+            </li>
+          </ul>
+        </div>  
+     </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <h1><p>Mundo</p><p>Matero</p></h1>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    </section>
+  </header>
+
+
+  <main class="main-container">
+
+    <section class="details-container" id="about">
+      <article class="detail">
+        <div class="detail__img-container">
+          <picture class="image-container__picture_1">
+            <source srcset="./images/campoverde.webp" media="(max-width: 640px)">
+            <img src="./assets/img/campoverde.webp" alt="transform your brand">
+          </picture>
+        </div>
+      
+        <div class="detail__text-box">
+          <h2>Argentina</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptates officiis vero, dolor, eum recusandae natus vel cupiditate, sequi ducimus obcaecati ipsum quod veritatis. Quaerat, harum? Necessitatibus exercitationem non odit?.</p>
+          <a href="#">Leer mas</a>
+        </div>  
+      </article>
+
+
+        <div class="detail__text-box">
+          <h2>Nuestros Mates</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum odit qui a. Fuga, corporis nulla? Rem nisi, earum dolorum totam non eum aspernatur vero quam fuga repellendus iste? Suscipit, possimus.. </p>
+          <img src="./assets/img/mate1.jpeg" alt="bauticarrera">
+          <a href="#">Leer mas</a>
+        </div>  
+      </article>
+    </section>
+
+    <section class="services-container" id="services">
+      <article class="service service--design">
+        <div class="service__text-box">
+          <h3>Diseños</h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laboriosam, nemo dignissimos deserunt amet est. Incidunt maxime numquam ipsam aspernatur? Incidunt, quia commodi nesciunt eveniet rem natus eos ducimus numquam..</p>
+        <img src="./assets/img/mate3.jpeg" alt="Bauticarrera">
+        </div>
+      </article>
+
+      <article class="service service--photography">
+        <div class="service__text-box">
+          <h3>Fotografias</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sed, exercitationem cumque earum laudantium reprehenderit modi libero facilis dolores officia iste ipsa pariatur, doloremque aspernatur nam possimus velit corporis eveniet!.</p>
+        </div>
+      </article>
+    </section>
+   
+
+  <footer class="footer-container" id="contact">
+    <div class="footer-container__logo-container">
+      <img src="./assets/img/la-casita-del-mate.png" alt="Bauti carrera logo">
     </div>
 
+    <ul class="footer-container__text-box">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pages/servicios.html">Servicios</a></li>
+      <li><a href="pages/nosotros.html">Nosotros</a></li>
+    </ul>
 
+    <ul class="footer-container__social-networks">
 
+        <img src="assets/icon/twitter.png">
+        
+        <img src="assets/icon/facebook.png">
+                       
+        <img src="assets/icon/instagram.png">
+                       
 
+  </footer>
 
-    <main class="hero">
-     <div class="info-content" data-aos="fade-up" data-aos-duration="2000">
-      <div class="scroll">
-        <h3>Argentina</h3>
-        <h1>Mundo Matero</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in doloribus incidunt.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in doloribus incidunt.</p>
-        <button class="btn"> Read More</button>
-    </div>
-     </div>
-   </main>
-
-
-   <footer class="Piedepagina">
-     
-         <div class="container-foo">
-
-             <div class="colum1">
-
-                 <h2>Redes Sociales</h2>
-
-                 <div class="row">
-                     <img src="assets/icon/facebook.png">
-                     <label>Siguenos en Facebook</label>
-                 </div>
-                 <div class="row">
-                     <img src="assets/icon/twitter.png">
-                     <label>Siguenos en Twitter</label>
-                 </div>
-                 <div class="row">
-                     <img src="assets/icon/instagram.png">
-                     <label>Siguenos en Instagram</label>
-                 </div>
-
-
-             </div>
-
-             <div class="colum2">
-
-                 <h2>Informacion Contactos</h2>
-
-                 <div class="row2">
-                     <img src="assets/icon/house.png">
-                     <label>Pellegrini 1000, Rosario.
-                     </label>
-                 </div>
-
-                 <div class="row2">
-                     <img src="assets/icon/smartphone.png">
-                     <label>819-355-2262</label>
-                 </div>
-
-                 <div class="row2">
-                     <img src="assets/icon/contact.png">
-                      <label>carrerabauti@gmail.com</label>
-                 </div>
-
-             </div>    
-     </div>
- 
- </footer>
-
-
-  <script src="js/scripts.js"></script>
-  
+  <script src="script.js"></script>
 </body>
 </html>
